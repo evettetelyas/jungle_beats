@@ -30,6 +30,6 @@ class JungleBeatTest < Minitest::Test
     def test_play
         @jb.append("boop moop loop laa dee daa")
 
-        binding.pry
+        assert_equal "boop moop loop laa dee daa", @jb.play
     end
 end

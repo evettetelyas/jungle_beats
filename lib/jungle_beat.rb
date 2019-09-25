@@ -14,5 +14,6 @@ class JungleBeat
 
     def play
         puts `say -v Victoria #{@list.to_string}`
+        return @list.to_string
     end
 end
